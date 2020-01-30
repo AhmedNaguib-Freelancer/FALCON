@@ -1,0 +1,39 @@
+﻿body{
+  direction: rtl;
+}
+
+
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: right;
+}
+
+@media(max-width: 991px){
+  .col-md-6 {
+    width: 100%;
+  }
+}
+
+@media(max-width: 767px){
+  .col-md-6 {
+    width: 100%;
+  }
+}
+
+
+.header video {
+  width: 100%;
+}
+
+
+@media(max-width: 991px){
+  .header video {
+  width: 100%;
+}
+}
+
+
+@media(max-width: 767px){
+  .header video {
+  width: 160%;
+}
+}
